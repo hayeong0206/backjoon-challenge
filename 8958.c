@@ -27,6 +27,5 @@ int main(){
         }
         printf("%d\n",sum);
     }
-    printf("%d\n",sum);
     
 }
