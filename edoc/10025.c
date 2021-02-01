@@ -4,9 +4,12 @@
 
 #include <stdio.h>
 
+int n,k,i, sum, ans;
+int amount,xi, ice[1000001] = {0};
+//main함수 안에서 선언시 틀렷습니다 뜸 왜일까?
+
 int main(){
-    int n,k,i, sum, ans;
-    int amount,xi, ice[1000001] = {0};
+
 
     scanf("%d %d", &n,&k);
     for(i=0; i<n; i++){
